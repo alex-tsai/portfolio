@@ -1,7 +1,7 @@
 $( document ).ready(function(){
 
   var counter = 0;
-  var projects = [$('#intro'), $('#where'), $('#pop'),
+  var projects = [$('#intro'), $('#pop'), $('#where'),
   $('#ijmweb'), $('#port'), $('#ixda'), $('#phone'), $('#center'),
   $('#ifa'), $('#chick'), $('#ijm1'), $('#ijm2'),
   $('#btease'), $('#dg'), $('#fall'), $('#lulu')];
