@@ -7,18 +7,18 @@ $( document ).ready(function(){
   $('#btease'), $('#dg'), $('#fall'), $('#lulu')];
 
   $(".next").click(function(){
-    projects[counter].hide();
+    projects[counter].fadeOut('fast');
     if(counter == 15)
     {
       counter = 0;
     }
-    projects[counter+1].show();
+    projects[counter+1].fadeIn('fast');
     counter++;
     });
 
   $(".prev").click(function(){
-    projects[counter].hide();
-    projects[counter-1].show();
+    projects[counter].fadeOut('fast');
+    projects[counter-1].fadeIn('fast');
     counter--;
     });
 
