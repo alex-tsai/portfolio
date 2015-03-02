@@ -1,9 +1,10 @@
 $( document ).ready(function(){
 
   var counter = 0;
-  var projects = [$('#intro'), $('#ifa'), $('#chick'), $('#ijm1'), $('#ijm2'),
-  $('#btease'), $('#dg'), $('#fall'), $('#lulu'), $('#ixda'),
-  $('#phone'), $('#center'), $('#ijmweb'), $('#port'), $('#where'), $('#pop')];
+  var projects = [$('#intro'), $('#where'), $('#pop'),
+  $('#ijmweb'), $('#port'), $('#ixda'), $('#phone'), $('#center'),
+  $('#ifa'), $('#chick'), $('#ijm1'), $('#ijm2'),
+  $('#btease'), $('#dg'), $('#fall'), $('#lulu')];
 
   $(".next").click(function(){
     projects[counter].hide();
