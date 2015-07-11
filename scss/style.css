@@ -1,0 +1,61 @@
+@charset "UTF-8";
+body {
+  color: #424242;
+  font-family: 'Inconsolata', monospace;
+  font-size: 16px;
+  height: 100%; }
+  body a {
+    color: #424242; }
+
+.container {
+  width: 80%;
+  margin-left: 10%; }
+
+header {
+  margin-top: 3em;
+  letter-spacing: 0.05em; }
+  header a {
+    text-decoration: none; }
+  header div {
+    font-size: 3em;
+    float: left; }
+  header ul {
+    list-style-type: none;
+    float: left;
+    clear: left;
+    padding-left: 0; }
+    header ul li {
+      display: inline;
+      float: left;
+      margin-left: 2em; }
+      header ul li a {
+        display: block;
+        text-align: right; }
+    header ul li:nth-child(1) {
+      margin-left: 0; }
+
+footer {
+  clear: both;
+  text-align: center; }
+  footer a {
+    text-decoration: none; }
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+/* Larger than mobile */
+/* Larger than phablet (also point when grid becomes active) */
+/* Larger than tablet */
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  header ul {
+    float: right;
+    clear: none; } }
+/* Larger than Desktop HD */
+
+/*# sourceMappingURL=style.css.map */
